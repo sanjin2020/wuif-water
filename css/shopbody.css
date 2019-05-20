@@ -1,0 +1,227 @@
+header{
+    width: 100%;
+    height: 0.88rem;
+    padding: 0 0.22rem;
+    line-height: 0.88rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    color: #4ebbfe;
+    font-size: 0.38rem;
+    box-shadow: 0 20px 50px 0px
+    rgba(41, 167, 255, 0.13);
+    position: fixed;
+    background: #ffffff;
+    z-index: 99;
+}
+header>a{
+    color: #4ebbfe;
+
+}
+.goods{
+    padding-top: 1rem;
+}
+.list{
+    height: 2rem;
+    width: 100%;
+    padding: 0.12rem 0 0.2rem 0;
+    display: flex;
+    border-bottom: 0.01rem solid rgba(0,0,0,0.1);
+}
+.list .butt{
+    flex-basis: 0.56rem;
+    position: relative;
+}
+/*.list .bottom a{*/
+/*    height: 0.24rem;*/
+/*    width: 0.24rem;*/
+/*}*/
+.list .butt img{
+    height: 0.24rem;
+    width: 0.24rem;
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    margin-left: -0.12rem;
+    margin-top: -0.12rem;
+}
+.list .im{
+    height: 1.74rem;
+    width: 1.74rem;
+    flex-basis: 1.74rem;
+    padding: 0.25rem 0.27rem;
+    float: left;
+}
+.list .im img{
+    height: 1.74rem;
+    width: 1.74rem;
+    border-radius: 0.1rem;
+    box-shadow: 0 0 20px 0 rgba(0 , 0 ,  0 , 0.1);
+
+}
+.list .tex{
+    width: auto;
+    height: 2.24rem;
+    float: right;
+    flex-grow: 2;
+    padding-left: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.list .tex div:nth-child(1){
+    display: flex;
+    align-items: center;
+}
+.list .tex div:nth-child(2){
+    margin-top: 0.2rem;
+}
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+.list .tex div span:nth-child(1){
+    font-size: 0.3rem;
+    color: rgba(0,0,0,0.6);
+}
+.list .tex div span:nth-child(2){
+    width: 0.34rem;
+    height: 0.34rem;
+
+    margin-left:1.15rem;
+    overflow: hidden;
+}
+.list .tex div span:nth-child(2) img{
+    width: 0.34rem;
+    height: 0.34rem;
+    display: inline-block;
+}
+.list .tex div span:nth-child(3){
+    font-size: 0.24rem;
+
+}
+.list .tex div span:nth-child(4){
+    width: 0.34rem;
+    height: 0.34rem;
+    overflow: hidden;
+}
+.list .tex div span:nth-child(4) img{
+    width: 0.34rem;
+    height: 0.34rem;
+    display: inline-block;
+}
+.list .ma{
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.5);
+}
+
+
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+
+footer{
+    height: 1.08rem;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+
+    background-color: #f1faff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+footer .left{
+    flex-basis: 40%;
+    margin-top: 0.13rem;
+    padding-left: 0.23rem;
+}
+footer .left .one{
+    position: relative;
+}
+footer .left .one:before{
+    content: '';
+    height: 0.05rem;
+    width: 0.05rem;
+    border-radius: 50%;
+    background: #44b5ff;
+
+    position: absolute;
+    top: 0.28rem;
+    left: -0.14rem;
+
+}
+footer .left .one span:nth-child(1){
+
+    font-size: 0.26rem;
+    color: rgba(59,172,254,0.6);
+}
+footer .left .one span:nth-child(2){
+    font-size: 0.36rem;
+    color: #36a8fe;
+}
+footer .left .two{
+    font-size: 0.24rem;
+    color: rgba(59,172,254,0.6);
+    position: relative;
+}
+footer .left .two:before{
+    content: '';
+    height: 0.05rem;
+    width: 0.05rem;
+    border-radius: 50%;
+    background: #44b5ff;
+
+    position: absolute;
+    top: 0.18rem;
+    left: -0.14rem;
+
+}
+footer .right{
+    flex-grow: 1;
+}
+footer .right a{
+    height:0.6rem ;
+    width:3.8rem ;
+    margin-top: 0.26rem;
+    float: right;
+}
+footer .right a img{
+    height:0.6rem ;
+    width:3.8rem ;
+}
+
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+.wit{
+    /*margin-top: 0.88rem;*/
+    height: 10.26rem;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.wit div{
+    margin: 0 auto;
+}
+.wit div:nth-child(1){
+    height: 2.54rem;
+    width: 2.80rem;
+}
+.wit div:nth-child(1) img{
+    height: 2.54rem;
+    width: 2.80rem;
+}
+.wit div:nth-child(2){
+    color: rgba(0,0,0,0.4);
+    font-size: 0.26rem;
+    margin:0.3rem 0 ;
+    text-align: center;
+}
+
+.wit div:nth-child(3){
+    height: 0.6rem;
+    width: 1.96rem;
+}
+.wit div:nth-child(3) img{
+    height: 0.6rem;
+    width: 1.96rem;
+}
