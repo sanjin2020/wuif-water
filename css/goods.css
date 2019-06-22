@@ -343,6 +343,7 @@ footer div:nth-child(1) img{
     width: 0.6rem;
 }
 footer div:nth-child(1) p{
+    margin-top: 0.05rem;
     font-size: 0.24rem;
     color: #3bacfe;
 }
@@ -354,8 +355,8 @@ footer div:nth-child(2) img{
     width: 0.6rem;
     margin-left: 0.18rem;
 }
-footer div:nth-child(2) p{
-    font-size: 0.24rem;
+footer div:nth-child(2) p a{
+    font-size: 0.22rem;
     color: #2ed977;
 }
 footer div:nth-child(3){
@@ -368,6 +369,10 @@ footer div:nth-child(3){
     background-image: linear-gradient(90deg, #37e06f 0%, #31d69a 100%), linear-gradient(#3bacfe, #3bacfe);
     border-radius: 30px;
     margin-top: 0.18rem;
+}
+footer div:nth-child(3) a{
+    font-size: 0.24rem;
+    color: #ffffff;
 }
 footer div:nth-child(4){
     font-size: 0.24rem;

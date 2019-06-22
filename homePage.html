@@ -6,6 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="format-detection" content="telephone=no, email=no" />
+    <script src="./js/Jquery.js"></script>
+    <link rel="stylesheet" href="./swiper-4.5.0/dist/css/swiper.min.css">
     <link rel="stylesheet" href="./css/homePage.css">
     <link rel="stylesheet" href="//at.alicdn.com/t/font_1194330_6e4co6bigmr.css">
     <title>首页</title>
@@ -23,8 +25,24 @@
             <p>寻找您需要的服务 &nbsp;商品</p>
         </a>
     </div>
-    <div class="banner">
-        <li><a href=""><img src="./image/homePage/banner.png" alt=""></a></li>
+    <div class="banner swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <li><a href=""><img src="./image/homePage/banner.png" alt=""></a></li>
+            </div>
+            <div class="swiper-slide">
+                <li><a href=""><img src="./image/homePage/banner.png" alt=""></a></li>
+            </div>
+            <div class="swiper-slide">
+                <li><a href=""><img src="./image/homePage/banner.png" alt=""></a></li>
+            </div>
+            <div class="swiper-slide">
+                <li><a href=""><img src="./image/homePage/banner.png" alt=""></a></li>
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
     </div>
     <div class="category">
         <li>
@@ -86,5 +104,27 @@
                 <p>我的</p>
             </a>
     </footer>
+    <script src="./swiper-4.5.0/dist/js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+        $('.swiper-button-prev').css({'top':'54%','height':'22px'});
+        $('.swiper-button-next').css({'top':'54%','height':'22px'});
+
+    </script>
 </body>
 </html>
